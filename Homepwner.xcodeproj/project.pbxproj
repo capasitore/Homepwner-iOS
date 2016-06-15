@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		E1A2C5161D0DDDBE000CC41F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A2C5151D0DDDBE000CC41F /* AppDelegate.swift */; };
-		E1A2C5181D0DDDBE000CC41F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A2C5171D0DDDBE000CC41F /* ViewController.swift */; };
 		E1A2C51B1D0DDDBE000CC41F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A2C5191D0DDDBE000CC41F /* Main.storyboard */; };
 		E1A2C51D1D0DDDBE000CC41F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A2C51C1D0DDDBE000CC41F /* Assets.xcassets */; };
 		E1A2C5201D0DDDBE000CC41F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A2C51E1D0DDDBE000CC41F /* LaunchScreen.storyboard */; };
+		E1A2C5281D0DDF20000CC41F /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A2C5271D0DDF20000CC41F /* ItemsViewController.swift */; };
+		E1A2C52A1D0DE0AE000CC41F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A2C5291D0DE0AE000CC41F /* Item.swift */; };
+		E1A2C52C1D0DE721000CC41F /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A2C52B1D0DE721000CC41F /* ItemStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E1A2C5121D0DDDBE000CC41F /* Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A2C5151D0DDDBE000CC41F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E1A2C5171D0DDDBE000CC41F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E1A2C51A1D0DDDBE000CC41F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1A2C51C1D0DDDBE000CC41F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1A2C51F1D0DDDBE000CC41F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1A2C5211D0DDDBE000CC41F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1A2C5271D0DDF20000CC41F /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		E1A2C5291D0DE0AE000CC41F /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		E1A2C52B1D0DE721000CC41F /* ItemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				E1A2C5151D0DDDBE000CC41F /* AppDelegate.swift */,
-				E1A2C5171D0DDDBE000CC41F /* ViewController.swift */,
+				E1A2C5271D0DDF20000CC41F /* ItemsViewController.swift */,
+				E1A2C5291D0DE0AE000CC41F /* Item.swift */,
+				E1A2C52B1D0DE721000CC41F /* ItemStore.swift */,
 				E1A2C5191D0DDDBE000CC41F /* Main.storyboard */,
 				E1A2C51C1D0DDDBE000CC41F /* Assets.xcassets */,
 				E1A2C51E1D0DDDBE000CC41F /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1A2C5181D0DDDBE000CC41F /* ViewController.swift in Sources */,
 				E1A2C5161D0DDDBE000CC41F /* AppDelegate.swift in Sources */,
+				E1A2C52A1D0DE0AE000CC41F /* Item.swift in Sources */,
+				E1A2C52C1D0DE721000CC41F /* ItemStore.swift in Sources */,
+				E1A2C5281D0DDF20000CC41F /* ItemsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
